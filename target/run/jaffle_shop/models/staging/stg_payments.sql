@@ -1,12 +1,7 @@
 
-use warehouse compute_wh;
-with source as (
-    
-    {#-
-    Normally we would select from the table here, but we are using seeds to load
-    our data in this project
-    #}
-    select * from {{ ref('raw_payments') }}
+  create or replace  view SCD_POC.PUBLIC.stg_payments  as (
+    with source as (
+    select * from SCD_POC.PUBLIC.raw_payments
 
 ),
 
@@ -25,3 +20,4 @@ renamed as (
 )
 
 select * from renamed
+  );

@@ -1,3 +1,5 @@
+
+use warehouse compute_wh;
 with source as (
 
     {#-
@@ -8,7 +10,7 @@ with source as (
 
 ),
 
-renamed as (
+renamed as ()
 
     select
         id as customer_id,

@@ -1,3 +1,5 @@
+use warehouse compute_wh;
+
 with orders as (
 
     select * from {{ ref('stg_orders') }}

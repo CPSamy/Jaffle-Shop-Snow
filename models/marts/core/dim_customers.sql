@@ -1,3 +1,5 @@
+use warehouse compute_wh;
+
 with customers as (
 
     select * from {{ ref('stg_customers') }}

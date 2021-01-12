@@ -1,3 +1,5 @@
+
+use warehouse compute_wh;
 with source as (
 
     {#-
