@@ -1,11 +1,12 @@
 
   create or replace  view SCD_POC.PUBLIC.stg_customers  as (
-    with source as (
+    use warehouse compute_wh;
+with source as (
     select * from SCD_POC.PUBLIC.raw_customers
 
 ),
 
-renamed as (
+renamed as ()
 
     select
         id as customer_id,

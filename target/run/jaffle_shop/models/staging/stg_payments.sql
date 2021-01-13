@@ -1,6 +1,7 @@
 
   create or replace  view SCD_POC.PUBLIC.stg_payments  as (
-    with source as (
+    use warehouse compute_wh;
+with source as (
     select * from SCD_POC.PUBLIC.raw_payments
 
 ),
