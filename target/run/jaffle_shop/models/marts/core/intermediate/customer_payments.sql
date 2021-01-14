@@ -1,8 +1,7 @@
 
 
       create or replace transient table SCD_POC.PUBLIC.customer_payments  as
-      (use warehouse compute_wh;
-with payments as (
+      (with payments as (
 
     select * from SCD_POC.PUBLIC.stg_payments
 

@@ -1,9 +1,7 @@
 
 
       create or replace transient table SCD_POC.PUBLIC.customer_orders  as
-      (use warehouse compute_wh;
-
-with orders as (
+      (with orders as (
 
     select * from SCD_POC.PUBLIC.stg_orders
 

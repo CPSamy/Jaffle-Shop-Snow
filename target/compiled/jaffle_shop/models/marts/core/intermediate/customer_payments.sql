@@ -1,4 +1,3 @@
-use warehouse compute_wh;
 with payments as (
 
     select * from SCD_POC.PUBLIC.stg_payments

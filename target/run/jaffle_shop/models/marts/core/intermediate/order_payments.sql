@@ -1,8 +1,7 @@
 
 
       create or replace transient table SCD_POC.PUBLIC.order_payments  as
-      (use warehouse compute_wh;
-
+      (
 
 with payments as (
 

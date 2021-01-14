@@ -1,5 +1,3 @@
-use warehouse compute_wh;
-
 with orders as (
 
     select * from SCD_POC.PUBLIC.stg_orders

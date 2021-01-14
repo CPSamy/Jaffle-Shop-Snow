@@ -1,4 +1,3 @@
-use warehouse compute_wh;
 
 
 with payments as (
