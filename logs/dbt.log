@@ -2206,3 +2206,67 @@ Done. PASS=0 WARN=0 ERROR=3 SKIP=5 TOTAL=8
 2021-01-14 00:09:42.390469 (Thread-37): handling status request
 2021-01-14 00:09:42.392564 (Thread-37): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '59f25dd5-7489-45ae-8a58-058dd708b774', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3035dee5e0>]}
 2021-01-14 00:09:42.393562 (Thread-37): sending response (<Response 749 bytes [200 OK]>) to 10.0.22.169
+2021-01-14 00:09:48.379243 (MainThread): Connection 'model.jaffle_shop.stg_customers' was properly closed.
+2021-01-14 00:09:48.406846 (Thread-38): Parsing macros/adapters.sql
+2021-01-14 00:09:48.436104 (Thread-38): Parsing macros/catalog.sql
+2021-01-14 00:09:48.438215 (Thread-38): Parsing macros/materializations/table.sql
+2021-01-14 00:09:48.442196 (Thread-38): Parsing macros/materializations/merge.sql
+2021-01-14 00:09:48.444218 (Thread-38): Parsing macros/materializations/view.sql
+2021-01-14 00:09:48.445788 (Thread-38): Parsing macros/materializations/incremental.sql
+2021-01-14 00:09:48.456177 (Thread-38): Parsing macros/core.sql
+2021-01-14 00:09:48.459880 (Thread-38): Parsing macros/adapters/common.sql
+2021-01-14 00:09:48.503928 (Thread-38): Parsing macros/materializations/helpers.sql
+2021-01-14 00:09:48.513300 (Thread-38): Parsing macros/materializations/table/table.sql
+2021-01-14 00:09:48.520249 (Thread-38): Parsing macros/materializations/seed/seed.sql
+2021-01-14 00:09:48.541192 (Thread-38): Parsing macros/materializations/view/view.sql
+2021-01-14 00:09:48.547348 (Thread-38): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-01-14 00:09:48.552183 (Thread-38): Parsing macros/materializations/incremental/helpers.sql
+2021-01-14 00:09:48.554010 (Thread-38): Parsing macros/materializations/incremental/incremental.sql
+2021-01-14 00:09:48.559967 (Thread-38): Parsing macros/materializations/common/merge.sql
+2021-01-14 00:09:48.573482 (Thread-38): Parsing macros/materializations/snapshot/strategies.sql
+2021-01-14 00:09:48.589157 (Thread-38): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-01-14 00:09:48.590865 (Thread-38): Parsing macros/materializations/snapshot/snapshot.sql
+2021-01-14 00:09:48.618208 (Thread-38): Parsing macros/schema_tests/relationships.sql
+2021-01-14 00:09:48.620031 (Thread-38): Parsing macros/schema_tests/not_null.sql
+2021-01-14 00:09:48.621525 (Thread-38): Parsing macros/schema_tests/unique.sql
+2021-01-14 00:09:48.623196 (Thread-38): Parsing macros/schema_tests/accepted_values.sql
+2021-01-14 00:09:48.625812 (Thread-38): Parsing macros/etc/get_custom_database.sql
+2021-01-14 00:09:48.627415 (Thread-38): Parsing macros/etc/query.sql
+2021-01-14 00:09:48.628449 (Thread-38): Parsing macros/etc/datetime.sql
+2021-01-14 00:09:48.637022 (Thread-38): Parsing macros/etc/get_custom_alias.sql
+2021-01-14 00:09:48.637981 (Thread-38): Parsing macros/etc/is_incremental.sql
+2021-01-14 00:09:48.639544 (Thread-38): Parsing macros/etc/get_custom_schema.sql
+2021-01-14 00:09:48.682895 (Thread-38): Acquiring new snowflake connection "model.jaffle_shop.stg_customers".
+2021-01-14 00:09:48.694499 (Thread-38): Acquiring new snowflake connection "model.jaffle_shop.stg_payments".
+2021-01-14 00:09:48.704678 (Thread-38): Acquiring new snowflake connection "model.jaffle_shop.stg_orders".
+2021-01-14 00:09:48.714945 (Thread-38): Acquiring new snowflake connection "model.jaffle_shop.dim_customers".
+2021-01-14 00:09:48.726774 (Thread-38): Acquiring new snowflake connection "model.jaffle_shop.fct_orders".
+2021-01-14 00:09:48.738771 (Thread-38): Acquiring new snowflake connection "model.jaffle_shop.customer_payments".
+2021-01-14 00:09:48.749805 (Thread-38): Acquiring new snowflake connection "model.jaffle_shop.order_payments".
+2021-01-14 00:09:48.760649 (Thread-38): Acquiring new snowflake connection "model.jaffle_shop.customer_orders".
+2021-01-14 00:09:48.986379 (Thread-39): handling status request
+2021-01-14 00:09:49.002071 (Thread-39): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '59f25dd5-7489-45ae-8a58-058dd708b774', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3034f5e040>]}
+2021-01-14 00:09:49.007864 (Thread-39): sending response (<Response 185 bytes [200 OK]>) to 10.0.3.8
+2021-01-14 00:09:50.569820 (Thread-40): handling status request
+2021-01-14 00:09:50.570371 (Thread-40): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '59f25dd5-7489-45ae-8a58-058dd708b774', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3035f8d0d0>]}
+2021-01-14 00:09:50.573928 (Thread-40): sending response (<Response 10532 bytes [200 OK]>) to 10.0.40.205
+2021-01-14 00:10:24.394115 (MainThread): Connection 'model.jaffle_shop.customer_orders' was properly closed.
+2021-01-14 00:10:24.447119 (Thread-41): Got an acceptable cached parse result
+2021-01-14 00:10:24.497633 (Thread-41): Acquiring new snowflake connection "model.jaffle_shop.dim_customers".
+2021-01-14 00:10:24.932075 (Thread-42): handling status request
+2021-01-14 00:10:24.932495 (Thread-42): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '59f25dd5-7489-45ae-8a58-058dd708b774', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3034fba3a0>]}
+2021-01-14 00:10:24.933455 (Thread-42): sending response (<Response 749 bytes [200 OK]>) to 10.0.20.230
+2021-01-14 00:10:34.493409 (MainThread): Connection 'model.jaffle_shop.dim_customers' was properly closed.
+2021-01-14 00:10:34.545350 (Thread-43): Got an acceptable cached parse result
+2021-01-14 00:10:34.720847 (Thread-43): Acquiring new snowflake connection "model.jaffle_shop.fct_orders".
+2021-01-14 00:10:35.152110 (Thread-44): handling status request
+2021-01-14 00:10:35.152575 (Thread-44): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '59f25dd5-7489-45ae-8a58-058dd708b774', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3034dfc460>]}
+2021-01-14 00:10:35.153638 (Thread-44): sending response (<Response 746 bytes [200 OK]>) to 10.0.18.55
+2021-01-14 00:10:51.530403 (MainThread): Connection 'model.jaffle_shop.fct_orders' was properly closed.
+2021-01-14 00:10:51.592830 (Thread-45): Got an acceptable cached parse result
+2021-01-14 00:10:52.045618 (Thread-46): handling status request
+2021-01-14 00:10:52.046235 (Thread-46): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '59f25dd5-7489-45ae-8a58-058dd708b774', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f303c0a9e50>]}
+2021-01-14 00:10:52.047475 (Thread-46): sending response (<Response 447 bytes [200 OK]>) to 10.0.19.17
+2021-01-14 00:11:06.251299 (Thread-47): handling status request
+2021-01-14 00:11:06.251723 (Thread-47): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '59f25dd5-7489-45ae-8a58-058dd708b774', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f303c0a9af0>]}
+2021-01-14 00:11:06.252500 (Thread-47): sending response (<Response 447 bytes [200 OK]>) to 10.0.28.203
