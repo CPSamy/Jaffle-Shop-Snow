@@ -1,4 +1,3 @@
-use warehouse compute_wh;
 with source as (
     select * from SCD_POC.PUBLIC.raw_payments
 
