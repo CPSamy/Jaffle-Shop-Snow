@@ -1,5 +1,5 @@
 
-use warehouse compute_wh;
+
 with payments as (
 
     select * from {{ ref('stg_payments') }}

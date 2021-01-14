@@ -1,4 +1,4 @@
-use warehouse compute_wh;
+
 
 with orders as (
 
